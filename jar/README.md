@@ -1,1 +1,1 @@
-**Important!** You should download `stanford-corenlp-full-2014-01-04.zip` file and unzip to this folder. You can download the file from [here](http://www-nlp.stanford.edu/software/stanford-corenlp-full-2014-01-04.zip). This file couldn't be pushed to github & npm because of its too big size(about 214MB).
+**Important!** You should download `stanford-corenlp-4.5.1.zip` file and unzip all contents to this folder. You can download the file [here](https://nlp.stanford.edu/software/stanford-corenlp-4.5.1.zip). This file couldn't be pushed to GitHub & npm because of its big size.

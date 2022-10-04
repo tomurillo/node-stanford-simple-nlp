@@ -7,16 +7,16 @@ Stanford CoreNLP provides a set of natural language analysis tools which can tak
 
 Stanford CoreNLP integrates all our NLP tools, including the part-of-speech (POS) tagger, the named entity recognizer (NER), the parser, and the coreference resolution system, and provides model files for analysis of English. The goal of this project is to enable people to quickly and painlessly get complete linguistic annotations of natural language texts. It is designed to be highly flexible and extensible. With a single option you can change which tools should be enabled and which should be disabled.
 
-The Stanford CoreNLP code is written in Java and licensed under the GNU General Public License (v2 or later). Source is included. Note that this is the full GPL, which allows many free uses, but not its use in distributed proprietary software. The download is 214 MB and requires Java 1.6+.
+The Stanford CoreNLP code is written in Java and licensed under the GNU General Public License (v2 or later). Note that this is the full GPL, which allows many free uses, but not its use in distributed proprietary software. The download is 482 MB and requires Java 1.8+.
 
 
 ## Installation
 
-node-stanford-simple-nlp depends on [Standord CoreNLP](http://nlp.stanford.edu/software/corenlp.shtml) v3.3.1. And don't forget to [set proper environment variables](https://github.com/nearinfinity/node-java) like `JAVA_HOME` in your system.
+node-stanford-simple-nlp depends on [Standord CoreNLP](https://stanfordnlp.github.io/CoreNLP/) v4.5.1. And don't forget to [set proper environment variables](https://github.com/nearinfinity/node-java) like `JAVA_HOME` in your system.
 
     $ npm install stanford-simple-nlp
 
-**Important!** You should download `stanford-corenlp-full-2014-01-04.zip` file and unzip to the ./jar folder. You can download the file from [here](http://www-nlp.stanford.edu/software/stanford-corenlp-full-2014-01-04.zip). This file couldn't be pushed to github & npm because of its too big size(about 214MB).
+**Important!** You should download `stanford-corenlp-4.5.1.zip` file and unzip to the ./jar folder. You can download the file from [here](https://nlp.stanford.edu/software/stanford-corenlp-4.5.1.zip). This file couldn't be pushed to GitHub & npm because of its big size.
 
 
 ## Usage
@@ -62,8 +62,4 @@ This license also applies to the included Stanford CoreNLP files.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-Author: Taeho Kim (xissysnd@gmail.com). Copyright 2013~2014.
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/xissy/node-stanford-simple-nlp/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
+Original author: Taeho Kim (xissysnd@gmail.com). Copyright 2013~2014.
