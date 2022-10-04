@@ -1,24 +1,30 @@
 {
   "name": "stanford-simple-nlp",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "author": {
-    "name": "Taeho Kim",
-    "email": "xissysnd@gmail.com"
+    "name": "Tomas Murillo-Morales",
+    "email": "tomurillo@gmail.com"
   },
+  "contributors": [
+    {
+      "name": "Taeho Kim",
+      "url": "https://github.com/xissy"
+    }
+  ],
   "main": "index",
   "dependencies": {
-    "coffee-script": "~1.7.1",
-    "java": "~0.7.0",
-    "xml2js": "~0.2.8"
+    "coffeescript": "^2.7.0",
+    "java": "~0.12.2",
+    "xml2js": "^0.4.23"
   },
   "readmeFilename": "README.md",
   "description": "A simple node.js wrapper for Stanford CoreNLP.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xissy/node-stanford-simple-nlp.git"
+    "url": "https://github.com/tomurillo/node-stanford-simple-nlp.git"
   },
   "bugs": {
-    "url": "https://github.com/xissy/node-stanford-simple-nlp/issues"
+    "url": "https://github.com/tomurillo/node-stanford-simple-nlp/issues"
   },
   "devDependencies": {
     "should": "~1.2.2",
