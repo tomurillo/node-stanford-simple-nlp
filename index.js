@@ -1,4 +1,4 @@
-var CoffeeScript = require('coffee-script');
+var CoffeeScript = require('coffeescript');
 
 if (CoffeeScript.register) {
   CoffeeScript.register();

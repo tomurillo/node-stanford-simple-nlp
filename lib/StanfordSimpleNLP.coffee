@@ -3,12 +3,23 @@ xml2js = require 'xml2js'
 
 java.options.push '-Xmx4g'
 
-java.classpath.push "#{__dirname}/../jar/ejml-0.23.jar"
+# Set up CLASSPATH
+java.classpath.push "#{__dirname}/../jar/ejml-core-0.39.jar"
+java.classpath.push "#{__dirname}/../jar/ejml-simple-0.39.jar"
+java.classpath.push "#{__dirname}/../jar/ejml-ddense-0.39.jar"
 java.classpath.push "#{__dirname}/../jar/joda-time.jar"
 java.classpath.push "#{__dirname}/../jar/jollyday.jar"
 java.classpath.push "#{__dirname}/../jar/xom.jar"
-java.classpath.push "#{__dirname}/../jar/stanford-corenlp-3.3.1-models.jar"
-java.classpath.push "#{__dirname}/../jar/stanford-corenlp-3.3.1.jar"
+java.classpath.push "#{__dirname}/../jar/stanford-corenlp-4.5.1-models.jar"
+java.classpath.push "#{__dirname}/../jar/stanford-corenlp-4.5.1.jar"
+java.classpath.push "#{__dirname}/../jar/istack-commons-runtime-3.0.7.jar"
+java.classpath.push "#{__dirname}/../jar/javax.activation-api-1.2.0.jar"
+java.classpath.push "#{__dirname}/../jar/javax.json.jar"
+java.classpath.push "#{__dirname}/../jar/jaxb-api-2.4.0-b180830.0359.jar"
+java.classpath.push "#{__dirname}/../jar/jaxb-impl-2.4.0-b180830.0438.jar"
+java.classpath.push "#{__dirname}/../jar/protobuf-java-3.19.2.jar"
+java.classpath.push "#{__dirname}/../jar/slf4j-api.jar"
+java.classpath.push "#{__dirname}/../jar/slf4j-simple.jar"
 
 
 getParsedTree = require './getParsedTree'
